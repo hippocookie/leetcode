@@ -14,7 +14,6 @@ class Solution:
     def lcaDeepestLeaves(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         self.init_parent(root)
 
-
     def init_parent(self, root: Optional[TreeNode]):
         if not root:
             return
